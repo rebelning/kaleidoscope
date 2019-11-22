@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Kale_Radius">
+        <attr name="koRRadius" format="float|reference" />
+        <attr name="korRadius" format="float|reference" />
+        <attr name="korlRadius" format="float|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Kale_Line">
+        <attr name="kRRadius" format="float|reference" />
+        <attr name="kLRadius" format="float|reference" />
+    </declare-styleable>
+</resources>

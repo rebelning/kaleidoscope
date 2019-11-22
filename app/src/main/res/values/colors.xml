@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ffffff</color>-->
+    <!--<color name="colorPrimaryDark">#ffffff</color>-->
+    <color name="colorPrimary">#ff5252</color>
+    <color name="colorPrimaryDark">#ed3f48</color>
+    <!--<color name="colorPrimary">#ff5252</color>-->
+    <!--<color name="colorPrimaryDark">#ed3f48</color>-->
+
+    <color name="colorBlackPrimary">#000000</color>
+    <color name="colorBlackPrimaryDark">#000000</color>
+    <!--<color name="colorAccent">#ed3f48</color>-->
+    <color name="colorAccent">#ffffff</color>
+    <color name="accent_color_4fc">#ed3f48</color>
+    <color name="background_body_color">#f0f0f0</color>
+    <!--ripple-->
+    <color name="color_clicked">#ff5252</color>
+    <color name="ripple_color">#40ff5252</color>
+    <!---->
+    <color name="background_transparent_bg">#00000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="while_text_color">#ffffff</color>
+    <color name="color_toolbar_title">#333333</color>
+    <color name="text_while_color_fff">#ffffff</color>
+    <color name="text_while_color_80">#80ffffff</color>
+    <color name="text_base_color_333">#333333</color>
+    <color name="text_base_color_4fc">#4fc2fc</color>
+    <color name="text_base_color_804fc">#804fc2fc</color>
+
+    <color name="text_base_color_666">#666666</color>
+    <color name="text_base_color_999">#999999</color>
+    <color name="text_base_color_bebebe">#bebebe</color>
+    <color name="text_base_color_f8f8f8">#f8f8f8</color>
+
+    <color name="text_line_color">#e0e0e0</color>
+    <color name="text_base_color_ebe">#ebebeb</color>
+
+    <color name="text_base_color_26ab28">#26ab28</color>
+    <color name="text_base_color_ce0a24">#ce0a24</color>
+    <color name="text_base_color_f3a536">#f3a536</color>
+
+    <color name="progressbar_red">#fe9289</color>
+
+</resources>

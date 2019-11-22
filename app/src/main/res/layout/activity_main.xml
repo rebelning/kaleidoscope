@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="以圆为基线-参数配置"
+                android:textColor="@color/text_base_color_333"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/activity_main_txt_OR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="定圆半径:"
+                    android:textColor="@color/text_base_color_333"
+                    android:textSize="14sp" />
+
+                <SeekBar
+                    android:id="@+id/activity_main_seekbar_OR"
+                    style="@style/CustomSeekbarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:max="100" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/activity_main_txt_Or"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="动圆半径:"
+                    android:textColor="@color/text_base_color_333"
+                    android:textSize="14sp" />
+
+                <SeekBar
+                    android:id="@+id/activity_main_seekbar_Or"
+                    style="@style/CustomSeekbarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:max="100" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/activity_main_txt_Orl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点到动圆心距离:"
+                    android:textColor="@color/text_base_color_333"
+                    android:textSize="14sp" />
+
+                <SeekBar
+                    android:id="@+id/activity_main_seekbar_Orl"
+                    style="@style/CustomSeekbarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:max="100" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="以直线为基线-参数配置"
+                android:textColor="@color/text_base_color_333"
+                android:textSize="14sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/activity_main_txt_R"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="圆半径:"
+                    android:textColor="@color/text_base_color_333"
+                    android:textSize="14sp" />
+
+                <SeekBar
+                    android:id="@+id/activity_main_seekbar_R"
+                    style="@style/CustomSeekbarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:max="100" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/activity_main_txt_radiusl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点到圆心距离:"
+                    android:textColor="@color/text_base_color_333"
+                    android:textSize="14sp" />
+
+                <SeekBar
+                    android:id="@+id/activity_main_seekbar_radiusl"
+                    style="@style/CustomSeekbarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:max="100" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0">
+
+        <TextView
+            android:id="@+id/activity_main_btn_kaleidoscope1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_bg_red"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="以圆为基线"
+            android:textColor="@color/text_while_color_fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/activity_main_btn_kaleidoscope2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_bg_red"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="以直线为基线"
+            android:textColor="@color/text_while_color_fff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--toolbar-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/accent_color_4fc</item>
+        <!--navigation back arrow color-->
+        <item name="android:textColorSecondary">@color/while_text_color</item>
+        <!--设置menu 字体颜色-->
+        <item name="actionMenuTextColor">@color/while_text_color</item>
+
+    </style>
+    <!--application theme-->
+    <style name="Framework_Theme" parent="AppTheme">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/background_body_color</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+    <!--full theme-->
+    <style name="Framework_FullTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Framework_Bottom_FullTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!--main theme-->
+    <style name="Framework_MainTheme" parent="AppTheme">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/background_body_color</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!--透明-->
+    <style name="Framework_StatusBar_trans" parent="AppTheme">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="CustomSeekbarStyle" >
+        <item name="android:maxHeight">10dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@color/colorAccent</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progress_drawable</item>
+        <item name="android:minHeight">10dp</item>
+        <!--<item name="android:thumb">@mipmap/ic_launcher</item>-->
+    </style>
+
+</resources>
