@@ -18,11 +18,11 @@ import java.util.List;
 
 /**
  * Description
- * Created by shaxiaoning
+ * Created by rebelning
  * Created date 2019/1/9 10:57
  * https://stackoverflow.com/questions/31050206/android-rotate-two-objectscircles-ontouch-with-animation
  * https://www.jianshu.com/p/ac1250bccd3b/
- * https://blog.csdn.net/mikasoi/article/details/79590019
+
  * https://blog.csdn.net/yaodaoji/article/details/81540883
  * <p>
  * 输入条件：

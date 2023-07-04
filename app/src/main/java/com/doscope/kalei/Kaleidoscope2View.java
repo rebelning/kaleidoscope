@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * Description
- * Created by shaxiaoning
+ * Created by rebelning
  * Created date 2019/1/9 10:57
  * https://stackoverflow.com/questions/31050206/android-rotate-two-objectscircles-ontouch-with-animation
  * https://www.jianshu.com/p/ac1250bccd3b/

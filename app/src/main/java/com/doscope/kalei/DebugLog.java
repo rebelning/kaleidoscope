@@ -6,7 +6,7 @@ import android.util.Log;
 /**
  * 调试log
  *
- * @author sxn
+ * @author rebelning
  */
 public class DebugLog {
 
