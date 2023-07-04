@@ -13,6 +13,7 @@
             android:name=".MainActivity"
             android:screenOrientation="landscape"
             android:theme="@style/Framework_MainTheme"
+            android:exported="true"
             android:windowSoftInputMode="adjustNothing|adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
