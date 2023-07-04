@@ -538,19 +538,6 @@ public class Kaleidoscope2View extends SurfaceView implements SurfaceHolder.Call
 
     }
 
-    private void drawMovingORTrack(Canvas canvas) {
 
-//        TrackPoint point = trackPointList.get(position);
-//        SystemClock.sleep(10);
-//        canvas.drawCircle(point.x, point.y, 10, radiusPaint);
-//        int count = trackPointList.size();
-        for (int i = 0; i < trackRadiusList.size(); i++) {
-            TrackRadiusPoint point = trackRadiusList.get(i);
-//            SystemClock.sleep(10);
-            canvas.drawCircle(point.cx, point.cy, 3, radiusPaint);
-        }
-
-
-    }
 
 }
